@@ -32,7 +32,11 @@ To use the project, follow these steps:
 
 ## Data
 
-The dataset used in this project consists of job postings for data analyst positions. It includes information such as job titles, descriptions, salaries, and locations. The dataset has been preprocessed to handle missing values and standardized salary information.
+The dataset used in this project consists of job postings for data analyst positions. It includes information such as job titles, descriptions, salaries, and locations.
+this dataset pulls job postings from Google's search results for Data Analyst positions in the United States.
+Data collection started on November 4th, 2022, and adds ~100 new job postings to this dataset daily.
+Source data was provided from SerpAPI.
+dataset link : https://storage.googleapis.com/gsearch_share/gsearch_jobs.csv
 
 ## Visualization
 
@@ -45,12 +49,10 @@ These visualizations provide insights into salary distributions, popular tools, 
 
 ## Machine Learning
 
-Two machine learning models have been implemented in this project:
 
-1. Random Forest: This model is used to predict salary ranges based on job descriptions and other features.
-2. CatBoost: Another model used for salary prediction, leveraging gradient boosting techniques.
+ Random Forest: This model is used to predict salary ranges based on job descriptions and other features.
 
-The data is preprocessed, features are extracted, and the models are trained and evaluated using appropriate evaluation metrics.
+The data is preprocessed, features are extracted, and the model is trained and evaluated using appropriate evaluation metrics.
 
 
 
@@ -58,7 +60,7 @@ The data is preprocessed, features are extracted, and the models are trained and
 
 - The project relies on the NLTK library for tokenization and analysis.
 - The visualizations are created using Matplotlib and Seaborn.
-- The machine learning models utilize scikit-learn, CatBoost, and other related libraries.
+- The machine learning models utilize scikit-learn, and other related libraries.
 
 
 
